@@ -45,3 +45,13 @@ def result():
 
 
 print(result())
+
+
+# Examples
+
+def my_data(name, age):
+    print("Your name is " + name)
+    print("Your age is " + str(age))
+
+
+my_data("Muhammed Ajmal y", 25)
