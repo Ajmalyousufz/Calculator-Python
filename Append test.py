@@ -10,3 +10,8 @@ for x in names:
     print(x)
 names.append("Yousuf")
 print(names)
+
+for x in range(5):
+    k = 0
+
+print(x)
