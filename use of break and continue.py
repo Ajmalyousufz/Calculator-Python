@@ -6,6 +6,7 @@ num = int(input("Enter a number"))
 
 for x in range(num + 1):
 
-    if x == 5: continue
+    if x == 5:
+        continue
 
     print(x)
