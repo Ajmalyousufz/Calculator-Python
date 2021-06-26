@@ -10,3 +10,4 @@ rang = int(input("Enter table limit\n"))
 for x in range(1, rang + 1):
     result = x * rang
     print(str(x) + " * " + str(num) + " = " + str(result))
+
