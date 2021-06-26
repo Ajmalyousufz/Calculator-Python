@@ -4,5 +4,7 @@ print("\n USE OF BREAK AND CONTINUE STATEMENTS\n")
 
 num = int(input("Enter a number"))
 
-for x in range(num+1):
+for x in range(num + 1):
     print(x)
+    if x == 5:
+        break
