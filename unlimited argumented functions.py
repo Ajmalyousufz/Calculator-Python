@@ -17,3 +17,10 @@ def jf():
     # x = x + 1 This line is error in here i.e. cant assign global variable in functions same variable
 
 
+# Without argument order we can pass parameters
+
+def sample(a, b, c):
+    print("first value : " + a + "\nSecond Value : " + b + "\nThird value :" + c)
+
+
+sample(b="Ajmal", a="Muhammed", c="Yousuf")
